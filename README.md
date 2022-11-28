@@ -1,5 +1,5 @@
 # PokerTexasHold
 Código que simula uma partida de Poker,
 
-Programa encontra-se em desenvolvimento.
-v.0.1
+Pode até parecer que exista um loop, mais o programa verifica todos os usuários na questão de aposta até ter todos com mesmo valor;
+v.0.1 beta.
