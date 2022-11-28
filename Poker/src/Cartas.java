@@ -2,7 +2,7 @@ public class Cartas {
     String nome;
     String nipe;
 
-    public Cartas(String nome, String nipe) {
+    public Cartas(String nipe, String nome) {
         this.nome = nome;
         this.nipe = nipe;
     }
@@ -16,7 +16,21 @@ public class Cartas {
     }
 
     public String getNipe() {
-        return nipe;
+        switch (nipe){
+            case "Copa":
+                nipe = "♥";
+                return nipe;
+            case "Espadas":
+                nipe = "♠";
+                return nipe;
+            case "Paus":
+                nipe = "♣";
+                return nipe;
+            case "Ouros":
+                nipe = "♦";
+                return nipe;
+        }
+        return null;
     }
 
     public void setNipe(String nipe) {

@@ -44,7 +44,7 @@ public class Baralho {
         String carta_baralho = scan.nextLine();
         System.out.println("a carta selecionada e:"+ carta_baralho);
         for (int i = 0; i<array_baralho.length;i++){
-            if(array_baralho[i]==carta_baralho){
+            if(carta_baralho.equalsIgnoreCase(array_baralho[i])){
                 System.out.println("a Carta ainda está no baralho ela é"+ carta_baralho);
             }
         }
